@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8759230B190A36D400250156 /* StorageThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8759230A190A36D400250156 /* StorageThirdViewController.m */; };
+		8766BCE61908E9F6006D227A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8766BCE51908E9F6006D227A /* UIKit.framework */; };
+		8766BCE81908E9F6006D227A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8766BCE71908E9F6006D227A /* Foundation.framework */; };
+		8766BCEA1908E9F6006D227A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8766BCE91908E9F6006D227A /* CoreGraphics.framework */; };
+		8766BCF01908E9F6006D227A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8766BCEE1908E9F6006D227A /* InfoPlist.strings */; };
+		8766BCF21908E9F6006D227A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8766BCF11908E9F6006D227A /* main.m */; };
+		8766BCF61908E9F6006D227A /* StorageAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8766BCF51908E9F6006D227A /* StorageAppDelegate.m */; };
+		8766BCF81908E9F6006D227A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8766BCF71908E9F6006D227A /* Default.png */; };
+		8766BCFA1908E9F6006D227A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8766BCF91908E9F6006D227A /* Default@2x.png */; };
+		8766BCFC1908E9F6006D227A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8766BCFB1908E9F6006D227A /* Default-568h@2x.png */; };
+		8766BCFF1908E9F6006D227A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8766BCFD1908E9F6006D227A /* MainStoryboard.storyboard */; };
+		8766BD021908E9F6006D227A /* StorageFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8766BD011908E9F6006D227A /* StorageFirstViewController.m */; };
+		8766BD041908E9F6006D227A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8766BD031908E9F6006D227A /* first.png */; };
+		8766BD061908E9F6006D227A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8766BD051908E9F6006D227A /* first@2x.png */; };
+		8766BD091908E9F6006D227A /* StorageSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8766BD081908E9F6006D227A /* StorageSecondViewController.m */; };
+		8766BD0B1908E9F6006D227A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8766BD0A1908E9F6006D227A /* second.png */; };
+		8766BD0D1908E9F6006D227A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8766BD0C1908E9F6006D227A /* second@2x.png */; };
+		8766BD151908E9F6006D227A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8766BD141908E9F6006D227A /* SenTestingKit.framework */; };
+		8766BD161908E9F6006D227A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8766BCE51908E9F6006D227A /* UIKit.framework */; };
+		8766BD171908E9F6006D227A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8766BCE71908E9F6006D227A /* Foundation.framework */; };
+		8766BD1F1908E9F6006D227A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8766BD1D1908E9F6006D227A /* InfoPlist.strings */; };
+		8766BD221908E9F6006D227A /* StorageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8766BD211908E9F6006D227A /* StorageTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8766BD181908E9F6006D227A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8766BCDA1908E9F6006D227A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8766BCE11908E9F6006D227A;
+			remoteInfo = Storage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87592309190A36D400250156 /* StorageThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageThirdViewController.h; sourceTree = "<group>"; };
+		8759230A190A36D400250156 /* StorageThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageThirdViewController.m; sourceTree = "<group>"; };
+		8766BCE21908E9F6006D227A /* Storage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Storage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8766BCE51908E9F6006D227A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8766BCE71908E9F6006D227A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8766BCE91908E9F6006D227A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8766BCED1908E9F6006D227A /* Storage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Storage-Info.plist"; sourceTree = "<group>"; };
+		8766BCEF1908E9F6006D227A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8766BCF11908E9F6006D227A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8766BCF31908E9F6006D227A /* Storage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Storage-Prefix.pch"; sourceTree = "<group>"; };
+		8766BCF41908E9F6006D227A /* StorageAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StorageAppDelegate.h; sourceTree = "<group>"; };
+		8766BCF51908E9F6006D227A /* StorageAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorageAppDelegate.m; sourceTree = "<group>"; };
+		8766BCF71908E9F6006D227A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8766BCF91908E9F6006D227A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8766BCFB1908E9F6006D227A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8766BCFE1908E9F6006D227A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8766BD001908E9F6006D227A /* StorageFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StorageFirstViewController.h; sourceTree = "<group>"; };
+		8766BD011908E9F6006D227A /* StorageFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorageFirstViewController.m; sourceTree = "<group>"; };
+		8766BD031908E9F6006D227A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		8766BD051908E9F6006D227A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		8766BD071908E9F6006D227A /* StorageSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StorageSecondViewController.h; sourceTree = "<group>"; };
+		8766BD081908E9F6006D227A /* StorageSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorageSecondViewController.m; sourceTree = "<group>"; };
+		8766BD0A1908E9F6006D227A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		8766BD0C1908E9F6006D227A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		8766BD131908E9F6006D227A /* StorageTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StorageTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8766BD141908E9F6006D227A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8766BD1C1908E9F6006D227A /* StorageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StorageTests-Info.plist"; sourceTree = "<group>"; };
+		8766BD1E1908E9F6006D227A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8766BD201908E9F6006D227A /* StorageTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StorageTests.h; sourceTree = "<group>"; };
+		8766BD211908E9F6006D227A /* StorageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorageTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8766BCDF1908E9F6006D227A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8766BCE61908E9F6006D227A /* UIKit.framework in Frameworks */,
+				8766BCE81908E9F6006D227A /* Foundation.framework in Frameworks */,
+				8766BCEA1908E9F6006D227A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8766BD0F1908E9F6006D227A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8766BD151908E9F6006D227A /* SenTestingKit.framework in Frameworks */,
+				8766BD161908E9F6006D227A /* UIKit.framework in Frameworks */,
+				8766BD171908E9F6006D227A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8766BCD91908E9F6006D227A = {
+			isa = PBXGroup;
+			children = (
+				8766BCEB1908E9F6006D227A /* Storage */,
+				8766BD1A1908E9F6006D227A /* StorageTests */,
+				8766BCE41908E9F6006D227A /* Frameworks */,
+				8766BCE31908E9F6006D227A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8766BCE31908E9F6006D227A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8766BCE21908E9F6006D227A /* Storage.app */,
+				8766BD131908E9F6006D227A /* StorageTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8766BCE41908E9F6006D227A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8766BCE51908E9F6006D227A /* UIKit.framework */,
+				8766BCE71908E9F6006D227A /* Foundation.framework */,
+				8766BCE91908E9F6006D227A /* CoreGraphics.framework */,
+				8766BD141908E9F6006D227A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8766BCEB1908E9F6006D227A /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				8766BCF41908E9F6006D227A /* StorageAppDelegate.h */,
+				8766BCF51908E9F6006D227A /* StorageAppDelegate.m */,
+				8766BCFD1908E9F6006D227A /* MainStoryboard.storyboard */,
+				8766BD001908E9F6006D227A /* StorageFirstViewController.h */,
+				8766BD011908E9F6006D227A /* StorageFirstViewController.m */,
+				8766BD031908E9F6006D227A /* first.png */,
+				8766BD051908E9F6006D227A /* first@2x.png */,
+				8766BD071908E9F6006D227A /* StorageSecondViewController.h */,
+				8766BD081908E9F6006D227A /* StorageSecondViewController.m */,
+				8766BD0A1908E9F6006D227A /* second.png */,
+				8766BD0C1908E9F6006D227A /* second@2x.png */,
+				8766BCEC1908E9F6006D227A /* Supporting Files */,
+				87592309190A36D400250156 /* StorageThirdViewController.h */,
+				8759230A190A36D400250156 /* StorageThirdViewController.m */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		8766BCEC1908E9F6006D227A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8766BCED1908E9F6006D227A /* Storage-Info.plist */,
+				8766BCEE1908E9F6006D227A /* InfoPlist.strings */,
+				8766BCF11908E9F6006D227A /* main.m */,
+				8766BCF31908E9F6006D227A /* Storage-Prefix.pch */,
+				8766BCF71908E9F6006D227A /* Default.png */,
+				8766BCF91908E9F6006D227A /* Default@2x.png */,
+				8766BCFB1908E9F6006D227A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8766BD1A1908E9F6006D227A /* StorageTests */ = {
+			isa = PBXGroup;
+			children = (
+				8766BD201908E9F6006D227A /* StorageTests.h */,
+				8766BD211908E9F6006D227A /* StorageTests.m */,
+				8766BD1B1908E9F6006D227A /* Supporting Files */,
+			);
+			path = StorageTests;
+			sourceTree = "<group>";
+		};
+		8766BD1B1908E9F6006D227A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8766BD1C1908E9F6006D227A /* StorageTests-Info.plist */,
+				8766BD1D1908E9F6006D227A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8766BCE11908E9F6006D227A /* Storage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8766BD251908E9F6006D227A /* Build configuration list for PBXNativeTarget "Storage" */;
+			buildPhases = (
+				8766BCDE1908E9F6006D227A /* Sources */,
+				8766BCDF1908E9F6006D227A /* Frameworks */,
+				8766BCE01908E9F6006D227A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Storage;
+			productName = Storage;
+			productReference = 8766BCE21908E9F6006D227A /* Storage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8766BD121908E9F6006D227A /* StorageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8766BD281908E9F6006D227A /* Build configuration list for PBXNativeTarget "StorageTests" */;
+			buildPhases = (
+				8766BD0E1908E9F6006D227A /* Sources */,
+				8766BD0F1908E9F6006D227A /* Frameworks */,
+				8766BD101908E9F6006D227A /* Resources */,
+				8766BD111908E9F6006D227A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8766BD191908E9F6006D227A /* PBXTargetDependency */,
+			);
+			name = StorageTests;
+			productName = StorageTests;
+			productReference = 8766BD131908E9F6006D227A /* StorageTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8766BCDA1908E9F6006D227A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Storage;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = CMPE277;
+			};
+			buildConfigurationList = 8766BCDD1908E9F6006D227A /* Build configuration list for PBXProject "Storage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8766BCD91908E9F6006D227A;
+			productRefGroup = 8766BCE31908E9F6006D227A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8766BCE11908E9F6006D227A /* Storage */,
+				8766BD121908E9F6006D227A /* StorageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8766BCE01908E9F6006D227A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8766BCF01908E9F6006D227A /* InfoPlist.strings in Resources */,
+				8766BCF81908E9F6006D227A /* Default.png in Resources */,
+				8766BCFA1908E9F6006D227A /* Default@2x.png in Resources */,
+				8766BCFC1908E9F6006D227A /* Default-568h@2x.png in Resources */,
+				8766BCFF1908E9F6006D227A /* MainStoryboard.storyboard in Resources */,
+				8766BD041908E9F6006D227A /* first.png in Resources */,
+				8766BD061908E9F6006D227A /* first@2x.png in Resources */,
+				8766BD0B1908E9F6006D227A /* second.png in Resources */,
+				8766BD0D1908E9F6006D227A /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8766BD101908E9F6006D227A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8766BD1F1908E9F6006D227A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8766BD111908E9F6006D227A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8766BCDE1908E9F6006D227A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8766BCF21908E9F6006D227A /* main.m in Sources */,
+				8766BCF61908E9F6006D227A /* StorageAppDelegate.m in Sources */,
+				8766BD021908E9F6006D227A /* StorageFirstViewController.m in Sources */,
+				8766BD091908E9F6006D227A /* StorageSecondViewController.m in Sources */,
+				8759230B190A36D400250156 /* StorageThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8766BD0E1908E9F6006D227A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8766BD221908E9F6006D227A /* StorageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8766BD191908E9F6006D227A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8766BCE11908E9F6006D227A /* Storage */;
+			targetProxy = 8766BD181908E9F6006D227A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8766BCEE1908E9F6006D227A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8766BCEF1908E9F6006D227A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8766BCFD1908E9F6006D227A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8766BCFE1908E9F6006D227A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		8766BD1D1908E9F6006D227A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8766BD1E1908E9F6006D227A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8766BD231908E9F6006D227A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8766BD241908E9F6006D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8766BD261908E9F6006D227A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Storage/Storage-Prefix.pch";
+				INFOPLIST_FILE = "Storage/Storage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8766BD271908E9F6006D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Storage/Storage-Prefix.pch";
+				INFOPLIST_FILE = "Storage/Storage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8766BD291908E9F6006D227A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Storage.app/Storage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Storage/Storage-Prefix.pch";
+				INFOPLIST_FILE = "StorageTests/StorageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8766BD2A1908E9F6006D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Storage.app/Storage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Storage/Storage-Prefix.pch";
+				INFOPLIST_FILE = "StorageTests/StorageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8766BCDD1908E9F6006D227A /* Build configuration list for PBXProject "Storage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8766BD231908E9F6006D227A /* Debug */,
+				8766BD241908E9F6006D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8766BD251908E9F6006D227A /* Build configuration list for PBXNativeTarget "Storage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8766BD261908E9F6006D227A /* Debug */,
+				8766BD271908E9F6006D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8766BD281908E9F6006D227A /* Build configuration list for PBXNativeTarget "StorageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8766BD291908E9F6006D227A /* Debug */,
+				8766BD2A1908E9F6006D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8766BCDA1908E9F6006D227A /* Project object */;
+}
