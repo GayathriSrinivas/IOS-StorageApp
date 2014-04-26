@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8759230B190A36D400250156 /* StorageThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8759230A190A36D400250156 /* StorageThirdViewController.m */; };
+		8759230D190A40A100250156 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8759230C190A40A100250156 /* libsqlite3.0.dylib */; };
 		8766BCE61908E9F6006D227A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8766BCE51908E9F6006D227A /* UIKit.framework */; };
 		8766BCE81908E9F6006D227A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8766BCE71908E9F6006D227A /* Foundation.framework */; };
 		8766BCEA1908E9F6006D227A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8766BCE91908E9F6006D227A /* CoreGraphics.framework */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		87592309190A36D400250156 /* StorageThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageThirdViewController.h; sourceTree = "<group>"; };
 		8759230A190A36D400250156 /* StorageThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageThirdViewController.m; sourceTree = "<group>"; };
+		8759230C190A40A100250156 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		8766BCE21908E9F6006D227A /* Storage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Storage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8766BCE51908E9F6006D227A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8766BCE71908E9F6006D227A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -79,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8759230D190A40A100250156 /* libsqlite3.0.dylib in Frameworks */,
 				8766BCE61908E9F6006D227A /* UIKit.framework in Frameworks */,
 				8766BCE81908E9F6006D227A /* Foundation.framework in Frameworks */,
 				8766BCEA1908E9F6006D227A /* CoreGraphics.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		8766BCD91908E9F6006D227A = {
 			isa = PBXGroup;
 			children = (
+				8759230C190A40A100250156 /* libsqlite3.0.dylib */,
 				8766BCEB1908E9F6006D227A /* Storage */,
 				8766BD1A1908E9F6006D227A /* StorageTests */,
 				8766BCE41908E9F6006D227A /* Frameworks */,
